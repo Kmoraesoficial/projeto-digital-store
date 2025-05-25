@@ -1,0 +1,13 @@
+.products {
+  padding: 2rem;
+}
+
+.products ul {
+  list-style: none;
+  padding: 0;
+}
+
+.products li {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}

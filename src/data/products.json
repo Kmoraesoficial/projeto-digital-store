@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Camiseta React",
+    "price": 49.9,
+    "description": "Estampa exclusiva React.js"
+  },
+  {
+    "id": 2,
+    "name": "Caneca JavaScript",
+    "price": 29.9,
+    "description": "Ideal para quem ama JS"
+  },
+  {
+    "id": 3,
+    "name": "Adesivo Frontend",
+    "price": 9.9,
+    "description": "Decore seu notebook!"
+  }
+]
