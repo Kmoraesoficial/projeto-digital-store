@@ -1,0 +1,31 @@
+<!-- cadastro-produto.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro de Produto</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <h1>Cadastro de Produto</h1>
+
+  <form id="form-cadastro">
+    <label>Nome:</label>
+    <input type="text" name="nome" required>
+
+    <label>Descrição:</label>
+    <textarea name="descricao" required></textarea>
+
+    <label>Preço:</label>
+    <input type="number" name="preco" step="0.01" required>
+
+    <label>Imagem (URL):</label>
+    <input type="url" name="imagem">
+
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <script src="assets/js/cadastro-produto.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #24292e;
+  color: white;
+  padding: 15px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.banner {
+  background: url('../../assets/img/banner.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+.btn-banner {
+  background: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.produtos-destaque {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.lista-produtos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.produto {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.produto img {
+  width: 100%;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+nav a span {
+  font-weight: bold;
+  color: yellow;
+}
