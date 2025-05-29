@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Seu Carrinho</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gtech Store - Carrinho</title>
+  <link rel="stylesheet" href="carrinho.css" />
+  <link rel="stylesheet" href="src/assets/css/style.css" />
 </head>
 <body>
+
   <header>
-    <h1>Carrinho de Compras</h1>
+    <h1>Gtech Store</h1>
     <nav>
-      <a href="index.html">← Voltar para Home</a>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="cadastro/produtos.html">Produtos</a></li>
+        <li><a href="#">Login</a></li>
+        <li>🛒 Carrinho (<span id="qtd-carrinho">0</span>)</li>
+      </ul>
     </nav>
+    
   </header>
 
   <main>
-    <section id="carrinho">
-      <ul id="lista-carrinho"></ul>
-      <p id="total">Total: R$ 0,00</p>
-      <button id="limpar-carrinho">🗑 Limpar carrinho</button>
-    </section>
+    <h2>Seu Carrinho</h2>
+     <div id="msg-carrinho-vazio"></div>
+       <button id="btn-limpar-carrinho" onclick="limparCarrinho()" style="display:none; margin: 10px auto;   display: block;">Limpar carrinho</button>
+      <div id="lista-carrinho"></div>
+    <div id="lista-carrinho"></div>
+    <p id="msg-carrinho-vazio"></p>
   </main>
+  <footer>
+    <p>&copy; 2025 Gtech Store. Todos os direitos reservados.</p>
+  </footer>
+  <script src="src/assets/js/produtos.jsx"></script>
+  <script src="src/assets/js/carrinho.jsx"></script>
 
-  <script src="assets/js/carrinho.js"></script>
 </body>
 </html>

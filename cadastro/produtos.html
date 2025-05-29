@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cadastro de Produto - Gtech Store</title>
+  <link rel="stylesheet" href="../src/assets/css/style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Cadastro de Produto</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="../carrinho.html">🛒 Carrinho (<span id="qtd-carrinho">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form id="form-produto">
+      <label>
+        Nome:
+        <input type="text" id="nome" required />
+      </label><br><br>
+      <label>
+        Preço:
+        <input type="number" id="preco" step="0.01" required />
+      </label><br><br>
+      <label>
+        Descrição:
+        <textarea id="descricao" rows="3"></textarea>
+      </label><br><br>
+      <label>
+        URL da Imagem:
+        <input type="url" id="imagem" />
+      </label><br><br>
+      <button type="submit">Cadastrar Produto</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 Gtech Store. Todos os direitos reservados.</p>
+  <script src="../src/assets/js/produtos.jsx"></script>
+  <script src="../src/assets/js/carrinho.jsx"></script>
+</body>
+</html>

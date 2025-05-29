@@ -7,6 +7,7 @@ const HomePage = () => {
       <h1>Bem-vindo à Loja Virtual</h1>
       <p>Encontre os melhores produtos com os melhores preços!</p>
     </div>
+    
   );
 };
 
